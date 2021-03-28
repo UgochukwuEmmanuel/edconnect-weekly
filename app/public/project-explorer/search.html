@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+    <header>
+        <h1> Project Explorer </h1>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="css/style.css" rel="stylesheet">
+    </header>
+    <body>
+        <div class="container"> 
+         <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary">
+            <a class="navbar-brand" href="index.html"> Project Explorer </a>
+            <div class="collapse navbar-collapse" id="navbarsupportedcontent">
+               <form class="form-inline my-2 my-lg-0" name="searchForm">
+                  <input class="form-control mr-sm-2" type="text" placeholder="Search Projects" aria-label="Search">
+                  <button class="btn btn-outline-light  my-2 my-sm-0" type="submit">Search</button>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                     <a class="nav-link" href="#"> Sign up </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#"> Login </a>
+                  </li>
+               </ul>
+         </nav>
+      </div>
+      </div>
+   <main>
+      <div> <h2> Projects Gallery </h2> </div>
+      <div class="container" class="bg-light p-3">
+         <form name="searchForm">
+            <div class="form-group">
+               <div class="form-row">
+                <div class="col">
+                  <label for="searchForm"></label>
+               <input type="text" class="form-control-lg"  class= "form-control" placeholder="Project Name, Authors, Abstract, Tags">
+               </div>
+               <button class="btn btn-outline-dark" type="submit">Search by</button>
+               <div class="col">
+                  <label for="searchType"></label>
+                   <select name="searchType" class="form-control-lg"   class= "form-control" placeholder="Name"> 
+                     <option value ="Name"> Name</option>
+                     <option value ="Abstract"> Abstract</option>
+                     <option value ="Authors"> Authors</option>
+                     <option value ="Tags"> Tags </option> 
+                                                </select> 
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+         </div>
+         </form>
+          </div>
+             
+         <h3> All Projects  </h3> 
+            <div class="row">
+               <div class="col-3">
+                  <div class="card" >
+                           <div class="card-body">
+                              <h5 class="card-title"> Project Title </h5>
+                              <h6 class="crad-subtitle"> Author 1, Author 2 </h6>
+                              <p class="crad-subtitle"> Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                        Adipiscing vitae proin sagittis nisl rhoncus.</p>
+      
+                           </div>
+                           </div>
+                           </div>
+               
+                   <div class="col-3">
+                     <div class="card" >
+                        <div class="card-body">
+                           <h5 class="card-title"> Project Title </h5>
+                           <h6 class="crad-subtitle"> Author 1, Author 2 </h6>
+                           <p class="crad-subtitle"> Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                     Adipiscing vitae proin sagittis nisl rhoncus.</p>
+      
+                        </div>
+                        </div>
+                  </div>
+                  </div>
+   </main>
+   <footer class="container">
+      <p class="float-right">Project Explorer 2020 &copy;<b>.Edconnect</b></p>
+    </footer>
+  </body>
+  </html>
