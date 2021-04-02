@@ -55,12 +55,12 @@
     <div class="form-row" >
         <div class="col">
           <label for="projectName">Project Name </label>
-          <input type="text" class="form-control" placeholder="Project 1">
+          <input type="text" name="name" class="form-control" placeholder="Project 1">
         </div>
         <div class="col"> 
             <h2>Manage Project file </h2>
             <div class="custom-file">
-            <input type="file" class="custom-file-input" id="customFile">
+            <input type="file" name="file" class="custom-file-input" id="customFile">
             <label class="custom-file-label" for="customFile">Click to open file browser</label>
         </div>
         </div>
@@ -70,7 +70,7 @@
       <div class="form-row" >
         <div class="col">
           <label for="projectAbsract">Project abstract </label>
-          <input type="text" class="form-control" placeholder="Project 1 is a very interesting project">
+          <textarea name="abstract" class="form-control" placeholder="Project 1 is a very interesting project">
         </div>
         <div class="col">
             <div class="card" >
@@ -84,11 +84,11 @@
                            </div>
                            <div class="form-group">
                             <label for="suthors"> Author(s)</label>
-                          <input type="text" class="form-control"  placeholder=" Ade Chris"/>
+                          <input type="text" name="authors" class="form-control"  placeholder=" Ade Chris"/>
                                              </div>
                 <div class="form-group">
                     <label for="tags">Tag(s)</label>
-                      <input type="text" class="form-control"  placeholder="#web"/>
+                      <input type="text" name="tags" class="form-control"  placeholder="#web"/>
                            </div>
 <button type="submit" class="btn btn-primary btn">Save </button>
                           </form>
