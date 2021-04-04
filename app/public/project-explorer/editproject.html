@@ -49,6 +49,7 @@
                         </div>
                       </div>
    </div>
+    </div>
   <h2> Edit Project </h2>
   <form>
     <div class="form-group">
@@ -56,43 +57,29 @@
       <div class="col>
         <label for="projectName"> Project name</label>
         <input type="text" name="name" class="form-control"  placeholder="Enter project name"/>
-        </div>
-     
-      <div class="col">
         <label for="projectAbsract">Project abstract </label>
         <textarea name="abstract" class="form-control" placeholder="Project 1 is a very interesting project"> </textarea>
-      </div>
-     
-                           <div class="col">
-                          <label for="authors"> Author(s)</label>
-                        <input type="text" name="authors" class="form-control"  placeholder="Project 1 is a very interesting project"/>
-                              </div>
-              <div class="col">
-                  <label for="tags">Tag(s)</label>
-                    <input type="text" name="tags" class="form-control"  placeholder="#web"/>
-                         </div>
-                         </div>
-                         </div>
-                        </div>
-    <div class="form-group">
-    <div class="form-row" >
-               <div class="col"> 
+        <label for="authors"> Author(s)</label>
+        <input type="text" name="authors" class="form-control"  placeholder="Project 1 is a very interesting project"/>
+        <label for="tags">Tag(s)</label>
+        <input type="text" name="tags" class="form-control"  placeholder="#web"/>
+        </div>
+     <div class="col"> 
             <h2>Manage Project file </h2>
             <div class="custom-file">
             <input type="file" name="file" class="custom-file-input" id="customFile">
             <label class="custom-file-label" for="customFile">Click to open file browser</label>
         </div>
+        <div class="card" >
+          <div class="card-body">
+         <h5 class="card-header"> Project Files </h5>
+          <p class="card-text" > No files uploaded yet
+                                     </p>
+                                        </div>
+          </div>
+
         </div>
-        <div class="col">
-          <div class="card" >
-                   <div class="card-body">
-                  <h5 class="card-header"> Project Files </h5>
-                   <p class="card-text" > No files uploaded yet
-                                              </p>
-                                                 </div>
-                   </div>
-                   </div>
-      </div>
+        </div>
     </div>
       <button type="submit" class="btn btn-primary btn"> Save </button>
                           </form>
