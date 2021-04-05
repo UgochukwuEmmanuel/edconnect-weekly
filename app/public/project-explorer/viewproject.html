@@ -30,20 +30,20 @@
     <div class="container">
         <h1> Project 1</h1>
         <div class="row">
-           <div class="col-3">
+           <div class="col">
             Created by:
               <br>  Jane Doe </br>  
                        </div>
-                       <div class="col-3">
+                       <div class="col">
                         Date Created:
                           <br>  00/00/0000</br>       
                        </div>
-                       <div class="col-3">
+                       <div class="col">
                         Last Updated: 
                            <br> 01/01/0001  </br>   
                        </div>
-                       <div class="col-3">
-                        <button type="submit" class="btn btn-primary">View Project </button>
+                       <div class="col">
+                        <button type="submit" > <a href="editproject.html" class="btn btn-primary"> Edit Project</a></button>
                         </div>
    </div>
 </div>
@@ -51,7 +51,7 @@
     <h2> Project Abstract </h2>
     <form>
         <div class="form-group">
-      <div class="form-row" >
+      <div class="row" >
           <div class="col">
             <label for="projectAbsract"> </label>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -61,7 +61,15 @@
             dkghdgjbdkjlablhkgiuajn;oeugewjlbmn;dhudhl;lkd/n;kldhljdb;dfljd;kfhjld/
             klhfdal;knklhbsoailjn;lsdbjlkad;akfoaiugaljksd;/., adlas;/k;alsmd;alsd.
           </div>
-          <div class="col">
+         <div class="col">
+               <label for="comments"> Comments </label>
+               <textarea name="comments" class="form-control" placeholder="Leave a comment"> </textarea>
+             </div>
+      </div>
+        </div>
+        <div class="form-group">
+        <div class="row">
+        <div class="col">
             <h2>Project details</h2>
             <div class="card" >
                      <div class="card-body">
@@ -74,13 +82,7 @@
                                                    </div>
                      </div>
                      </div>
-                                </div>
-                                <div class="form-row" >
-                                    <div class="col">
-                                      <label for="comments"> Comments </label>
-                                      <input type="text" class="form-control" placeholder="Leave a comment">
-                                    </div>
-                                    <div class="col">
+                    <div class="col">
                                         <div class="card" >
                                                <div class="card-body">
                                               <h5 class="card-header">Project files </h5>
@@ -90,10 +92,9 @@
                                                </div>
                                                </div>
                                    
-                                                 </div>
-           
-        </div>
-        <button type="submit" class="btn btn-primary btn"> Submit</button>
+                                              </div>
+                                              </div>
+                          <button type="submit" class="btn btn-primary btn"> Submit</button>
       </div>
    </main>
    <footer class="container">
